@@ -1,0 +1,49 @@
+body{
+    box-sizing: border-box;
+    background-color: black;
+    /* margin: auto; */
+}
+
+.dent img{
+height: 300px;
+width: 300px;
+margin-top: 60px;
+border-radius: 800px;
+}
+
+.dent h2{
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.butn{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   margin-top: 10px;
+}
+
+.butn button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.social-icon{
+    width: 1em;
+    height: 1em;
+    flex: none;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background: rgb(68, 51, 51);
+}
